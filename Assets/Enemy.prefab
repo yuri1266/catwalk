@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 3352146332326189767}
   - component: {fileID: 3352146332326189768}
   - component: {fileID: 3352146332326189769}
-  - component: {fileID: 1006691858276141815}
+  - component: {fileID: 1529207279145454669}
   m_Layer: 0
-  m_Name: Circle
-  m_TagString: Untagged
+  m_Name: Enemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,13 +94,13 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 11b7a4d2daf6eff4e85f9e82578f821c, type: 2}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1006691858276141815
+--- !u!114 &1529207279145454669
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,3 +112,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9832007413743b74c99e8b3ae1a1a490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10

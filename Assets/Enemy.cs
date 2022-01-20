@@ -5,7 +5,10 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
-    float speed = 5;    //とりあえずデフォルト値を5としておく
+    
+    public float speed;
+    
+
     public float Speed
     {
         set
